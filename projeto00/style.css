@@ -49,7 +49,7 @@ input {
     align-items: center;
 }
 
-.container-input > div {
+.container-input>div {
     width: 10vw;
 }
 

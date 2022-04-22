@@ -13,15 +13,15 @@ function imc() {
         let classificacao = ''
 
         if (valorIMC < 18.5) {
-            classificacao = 'Abaixo do peso'
+            classificacao = 'Abaixo do peso ideal.'
         }
-        else if (valorIMC < 25) {
-            classificacao = 'no peso ideal'
+        else if (valorIMC > 24.99) {
+            classificacao = 'Acima do peso ideal.'
         }
-        else if (valorIMC < 30) {
-            classificacao = 'Acima do peso'
+        else if (valorIMC >= 18.5 && valorIMC <= 24.99) {
+            classificacao = 'no peso ideal.'
         } else {
-            classificacao = 'Obeso'
+            resultado.textContent = 'Valor inválido'
         }
 
         resultado.textContent = `${nome}, seu IMC é ${valorIMC} e você está ${classificacao}`

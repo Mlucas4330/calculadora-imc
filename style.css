@@ -28,8 +28,8 @@ body {
 
 
 main {
-    width: 30rem;
-    height: 30rem;
+    width: 22rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +40,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 4rem;
+    height: 3rem;
     width: 100%;
     text-align: center;
 }
@@ -50,7 +50,7 @@ main {
 }
 
 .item-input {
-    height: 15rem;
+    height: 12rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -70,14 +70,17 @@ label {
 
 
 .item-botao {
-    height: 3rem;
+    height: 4rem;
     width: 100%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
-    height: 90%;
-    width: 90%;
+    height: 2.5rem;
+    width: 70%;
 }
 
 
